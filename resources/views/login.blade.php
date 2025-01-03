@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="{{ asset('css/login.css') }}">
-    <title>Nextbridge-login</title>
+    <title>CAM Event</title>
 </head>
 
 <body>
     <div class="container" id="container">
         <!-- Sign Up Form -->
         <div class="form-container sign-up">
-            
+            <form action="" method="POST" enctype="multipart/form-data">
                 @csrf
                 <h1>Create Account</h1>
                 
