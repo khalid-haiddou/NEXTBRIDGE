@@ -40,14 +40,14 @@ body {
 }
 
 .container a {
-    color: #158343; /* Update link color */
+    color: #721953; /* Update link color */
     font-size: 13px;
     text-decoration: none;
     margin: 15px 0 10px;
 }
 
 .container button {
-    background-color: #158343;
+    background-color: #721953;
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -162,8 +162,8 @@ body {
 }
 
 .toggle {
-    background-color: #158343;
-    background: linear-gradient(to right, #1b5e20, #158343); /* Dark to medium green */
+    background-color: #721953;
+    background: linear-gradient(to right, #500d33, #721953); /* Dark to medium purple */
     color: #fff;
     position: relative;
     left: -100%;
