@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    HELLO WORLD THIS IS A TEST
+    hello this is a dashboard
 </body>
 </html>

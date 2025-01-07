@@ -15,7 +15,12 @@ Route::middleware(['auth'])->group(function () {
 
 // Routes secured for authenticated users
 Route::middleware(['auth', AdminMiddleware::class])->group(function () {
-    Route::get('/dashboard', [ParticipatesController::class, 'dashboard'])->name('dashboard');
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
 
     
 });
+Route::get('/', function () {
+    return view('index');
+})->name('index');
