@@ -17,8 +17,5 @@ Route::middleware(['auth'])->group(function () {
 Route::middleware(['auth', AdminMiddleware::class])->group(function () {
     Route::get('/dashboard', [ParticipatesController::class, 'dashboard'])->name('dashboard');
 
-    // Participation Routes (CRUD)
-    Route::get('/participate/{id}/edit', [ParticipatesController::class, 'edit'])->name('participate.edit'); // Show edit form
-    Route::put('/participate/update/{id}', [ParticipatesController::class, 'update'])->name('participate.update'); // Handle update
-    Route::delete('/participate/{id}', [ParticipatesController::class, 'destroy'])->name('participate.delete'); // Handle delete
+    
 });
