@@ -1016,17 +1016,7 @@
 
             </div>
 
-            <div class="sidebar-footer">
-              <div class="sidebar-footer-content">
-                <ul class="d-flex">
-                  <li>
-                    <a href="user-account-settings.html" data-toggle="tooltip" title="Profile settings"><i class="mdi mdi-settings"></i></a></li>
-                  <li>
-                    <a href="#" data-toggle="tooltip" title="No chat messages"><i class="mdi mdi-chat-processing"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            
           </div>
         </aside>
 
@@ -1035,7 +1025,7 @@
       <!-- ====================================
       ——— PAGE WRAPPER
       ===================================== -->
-      < class="page-wrapper">
+      <div class="page-wrapper">
         
           <!-- Header -->
           <header class="main-header" id="header">
@@ -1440,22 +1430,17 @@
                         </table>
                     </div>
                 </div>
+                
+                
               </div>
+
+              
+</div>
+          
         </div>
         
           <!-- Footer -->
-          <footer class="footer mt-auto">
-            <div class="copyright bg-white">
-              <p>
-                &copy; <span id="copy-year"></span> Copyright Mono Dashboard Bootstrap Template by <a class="text-primary" href="http://www.iamabdus.com/" target="_blank" >Abdus</a>.
-              </p>
-            </div>
-            <script>
-                var d = new Date();
-                var year = d.getFullYear();
-                document.getElementById("copy-year").innerHTML = year;
-            </script>
-          </footer>
+          
 
       </div>
     </div>
